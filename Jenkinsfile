@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools{
+    tools {
         maven 'maven'
     }
 
@@ -28,6 +28,6 @@ pipeline {
                 // Package the project
                 sh 'mvn package'
             }
-        }
-    }
+        }
+    }
 }
